@@ -1,5 +1,21 @@
 # KtxSafe
 Kotlin functions and extensions to do safe unwrap and functions.
+## Add dependencies
+- Project `build.gradle` 
+```
+allprojects {
+    repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+- Module `build.gradle` 
+```
+dependencies {
+	implementation 'com.github.jeziellago:ktxsafe:VERSION'
+}
+```
 
 ## Nullable values
 Handle multiples nullable values on conditions is hard and decrease readability in binary conditions.
