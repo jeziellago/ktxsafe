@@ -1,0 +1,2 @@
+include ':ktxsafe'
+rootProject.name='Ktx Safe Tools'
