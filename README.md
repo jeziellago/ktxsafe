@@ -1,5 +1,5 @@
 # KtxSafe
-Kotlin functions and extensions to do safe unwrap and functions.
+Kotlin functions and extensions to do safe unwrap and extract values.
 ## Add dependencies
 - Project `build.gradle` 
 ```
